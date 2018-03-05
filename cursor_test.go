@@ -6,7 +6,7 @@ import (
 
 	"github.com/icza/mighty"
 
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo/bson"
 )
 
 func TestDefaultCodec(t *testing.T) {
